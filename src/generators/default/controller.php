@@ -41,7 +41,7 @@ use yii\filters\VerbFilter;
 /**
  * <?= $controllerClass ?> implements the CRUD actions for <?= $modelClass ?> model.
  */
-class <?= $controllerClass ?> extends \yii\rest\Controller . "\n" ?>
+class <?= $controllerClass ?> extends \yii\rest\Controller <?= "\n" ?>
 {
     /**
      * @inheritDoc
