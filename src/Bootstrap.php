@@ -7,7 +7,7 @@ use yii\base\Application;
 use yii\base\BootstrapInterface;
 
 /**
- * @author John Martin <john.itvn@gmail.com>
+ * @author ansori <muhammadansorinasution@gmail.com>
  * @since 1.0
  */
 class Bootstrap implements BootstrapInterface {
