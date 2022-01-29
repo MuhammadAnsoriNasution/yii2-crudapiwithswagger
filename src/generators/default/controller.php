@@ -49,6 +49,7 @@ use filsh\yii2\oauth2server\filters\auth\CompositeAuth;
 use yii\bootstrap\ActiveForm;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
+use OpenApi\Annotations as OA;
 
 /**
  * <?= $controllerClass ?> implements the CRUD actions for <?= $modelClass ?> model.
