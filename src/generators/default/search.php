@@ -43,7 +43,9 @@ class <?= $searchModelClass ?> extends <?= isset($modelAlias) ? $modelAlias : $m
             <?= implode(",\n            ", $rules) ?>,
         ];
     }
-
+    public function formName() {
+        return '';
+    }
     /**
      * {@inheritdoc}
      */
