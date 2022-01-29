@@ -72,7 +72,7 @@ class Generator extends \yii\gii\Generator
      */
     public function getName()
     {
-        return 'CRUD Generator';
+        return 'CRUD Generator REST API with Swagger 3';
     }
 
     /**
