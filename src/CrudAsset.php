@@ -17,7 +17,7 @@ class CrudAsset extends AssetBundle
 //    ];
 
     public $css = [
-        'style.css'
+        'dist/swagger-ui.css',
     ];
 
     public $depends = [
@@ -30,7 +30,9 @@ class CrudAsset extends AssetBundle
    public function init() {
        // In dev mode use non-minified javascripts
        $this->js = [
-           'hideshow.js',
+            'dist/swagger-ui-bundle.js',
+            'dist/swagger-ui-standalone-preset.js',
+            'dist/swagger-ui-bundle.js'
        ];
 
        parent::init();
