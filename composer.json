@@ -17,5 +17,8 @@
         "psr-4": {
             "ansori\\crudapiwithswagger\\": "src/"
         }
+    },
+    "extra": {
+        "bootstrap": "ansori\\crudapiwithswagger\\Bootstrap"
     }
 }
