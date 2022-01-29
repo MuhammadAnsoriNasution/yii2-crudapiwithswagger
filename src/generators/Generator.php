@@ -5,7 +5,7 @@
  * @license http://www.yiiframework.com/license/
  */
 
-namespace ansori\crudapiwithswagger;
+namespace ansori\crudapiwithswagger\generators;
 
 use Yii;
 use yii\db\ActiveRecord;
